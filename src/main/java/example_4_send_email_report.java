@@ -91,7 +91,7 @@ public class example_4_send_email_report {
         final String password = "<PASSWORD>";//change accordingly
 
         // Assuming you are sending email through smtp.gmaill.com
-        String host = "smtp.gmail.com";
+        String host = "<HOST>";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
